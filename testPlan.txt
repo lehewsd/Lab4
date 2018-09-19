@@ -1,0 +1,5 @@
+1: inout - {5,3,4,1,2}		output - {5,4,3,2,1}
+2: input - null			output - IllegalArgument Exception
+3: input - {5,3,a,2,1}		output - IllegalArguemnt Exception
+4: input - {99,1,1,4,56}	output - {99,56,4,1,1}
+5: input - {1.1,2,6,4,5} 	output - IllegalArgument Exception
